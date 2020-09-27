@@ -1,0 +1,45 @@
+.card {
+  padding-top: 120px;
+}
+.card__border {
+  width: 270px;
+  height: 270px;
+  border: 1px solid #000000;
+}
+.card__img {
+  padding: 25px 0 0 15px;
+}
+.card__title {
+  padding: 10px 0 0 15px;
+}
+.card__subtitle {
+  font-size: 15px;
+  padding: 3px 5px 3px 5px;
+}
+.card__grid {
+  display: grid;
+  grid-template: repeat(2, minmax(270px, auto))/repeat(4, 270px);
+  grid-auto-rows: minmax(270px, auto);
+  gap: 13px;
+}
+.card__blog {
+  margin-top: 120px;
+  display: grid;
+  grid-template: repeat(2, minmax(70px, auto))/repeat(3, 350px);
+  column-gap: 45px;
+  row-gap: 35px;
+}
+.card__rating {
+  display: grid;
+  grid-template: minmax(21px, auto) 14px/200px 35px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.card__site {
+  position: relative;
+  padding: 2px 0 0 13px;
+}
+
+.c {
+  margin-top: 22px;
+}

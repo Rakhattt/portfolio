@@ -1,0 +1,27 @@
+.price
+    padding-top: 120px
+    &__title
+        position: relative
+        text-align: center
+        @include before_circle
+        &::before
+            left: 50%
+            transform: translateX(-50%)
+    &__blog
+        margin-top: 60px   
+        display: grid
+        grid-template: repeat(2, 120px) / repeat(2, 590px)
+        column-gap: 50px
+    &__list
+        display: grid
+        grid-template: repeat(2, minmax(17px, auto)) / repeat(2, auto)
+    &__text
+        position: relative
+        @include before_circle
+        &::before
+            left: -25px   
+            width: 15px
+            height: 15px  
+            top: 4px 
+    &__percent
+        font-size: 17px        
