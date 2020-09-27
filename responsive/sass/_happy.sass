@@ -1,0 +1,60 @@
+.happy
+    min-height: 700px
+    &__undertitle
+        color: #fff
+        font-weight: 200
+        text-align: center
+        padding-top: 50px
+        padding-bottom: 70px
+    &__wrapper
+        position: relative
+        padding-left: 200px
+    &__blog
+        position: relative
+        height: 158px
+        width: 635px
+        background: rgba(0, 0, 0, 0.2) 
+        border-radius: 4px
+        &::before
+            position: absolute
+            left: -10px
+            top: 30px
+            content: ""
+            width: 0
+            height: 0
+            border-top: 10px solid transparent
+            border-bottom: 10px solid transparent
+            border-right: 10px solid rgba(0, 0, 0, 0.2)
+    &__blo
+        position: relative
+        height: 158px
+        width: 635px
+        background: rgba(0, 0, 0, 0.2)
+        border-radius: 4px
+        &::before
+            position: absolute
+            left: inherit
+            right: -10px
+            top: 30px
+            content: ""
+            width: 0
+            height: 0
+            border-top: 10px solid transparent
+            border-bottom: 10px solid transparent
+            border-right: inherit
+            border-left: 10px solid rgba(0, 0, 0, 0.2)
+
+    &__blogs
+        display: flex
+        justify-content: space-between
+        height: 218px
+        width: 800px     
+    &__title
+        padding: 30px 20px
+        color: #fff
+    &__subtitle
+        padding: 0 0 40px 20px
+    .center-block
+        display: block
+        margin-right: auto
+        margin-left: aito     

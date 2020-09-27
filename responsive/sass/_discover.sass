@@ -1,0 +1,42 @@
+.discover
+    min-height: 650px
+    &__title
+        color: #221e1e
+        font-weight: 200
+        text-align: center
+        padding-top: 100px
+    &__subtitle
+        color: #535558
+        text-align: center
+    &__wrapper     
+        display: grid
+        grid-template-columns: 300px 350px    
+        column-gap: 350px
+        margin-top: 50px
+    &__undertitle
+        color: #2a2e2e
+        text-align: center
+        margin-top: 50px
+        font: normal normal normal 14px/1 FontAwesome
+        font-size: 14px
+        font-size: inherit
+        text-rendering: auto
+        &:active
+            display: flex
+        &:hover
+            color: #40babd
+        &::before
+            content: "\f0d0"    
+    &__img
+        height: 617px
+        width: 550px    
+    &__blog
+        display: none
+        &:active
+            display: block
+.nav-link
+    color: #ada2a2       
+    margin-bottom: 20px
+    &:hover
+        color: #68bbd4  
+

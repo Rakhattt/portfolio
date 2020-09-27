@@ -1,0 +1,47 @@
+.choose__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.choose__icon {
+  padding-right: 20px;
+}
+.choose__title {
+  text-align: center;
+  margin-top: 70px;
+  color: #332d2d;
+  font-size: 36px;
+  font-weight: 300;
+}
+.choose__subtitle {
+  color: #ada0a0;
+  font-size: 18px;
+  text-align: center;
+}
+.choose__blogs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.choose__blog {
+  margin-right: 10px;
+}
+.choose__img {
+  height: 170px;
+  display: block;
+  margin: 0 auto;
+}
+.choose__r {
+  margin-top: 35px;
+  color: #40babd;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.choose__ro {
+  color: #616670;
+  text-align: center;
+  font-size: 16px;
+}
